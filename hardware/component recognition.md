@@ -57,9 +57,13 @@ Remark: 1st band is wider than others with axial leads. If resistors have color 
 
 A capacitor is formed by two conductors surrounding an insulator. When a voltage potential difference is between the conductors of a capacitor, an electric field is present in the dielectric. This field stores energy and produces a force between plates. A capacitor is manufactured with specific value of farads(F). In practical, one farad is very large. The most commonly used multiples and submultiples of capacitors are microfarad(μF), nanofarad(nF) and picofarad(pF).
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/type_cap.jpg)
+
 Ceramic capacitors have stripes or dots with three or five colors. When there are five colors, the first and last indicate the temperature coefficient and tolerance respectively. The middle three colors give the value in picofarads(pF).
 
 #### Color code for ceramic capacitors
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/cap_color_code.jpg)
 
 #### Surface mount device (SMD) capacitor
 
@@ -69,11 +73,16 @@ Most of SMD capacitors are too tiny to have a marking on it. The capacitance & o
 
 Unlike ceramic capacitors, electrolytic capacitors have specified polarities. Electrolytic capacitors have very high capacitances and ESR and are usually used for rectifying power nets; Beware of the polarity where usually the negative terminal will be marked.
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/cap_sign.jpg)
+
 **Never reverse the polarity or apply a voltage higher than that specified on the package or there will be risk of explosion.**
 
 #### Tantalum Capacitor
 
 Tantalum capacitor is less commonly used due to its expensiveness and a lack of necessity. However, there may be some occasions where tantalum capacitors are deployed and extreme care must be taken. Tantalum capacitors have high capacitance-to-volume ratio and a ESR in between ceramic and electrolytic capacitors. However, it is extremely prone to explosion under abnormal usage or near-borderline working conditions.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/tantalum cap.jpg)
+
 Note that the markings on a tantalum capacitor is opposite to an electrolytic capacitor, where the strip indicates a positive terminal.
 
 **Applying any voltage below the negative terminal on the positive terminal, or any voltage higher than 80% of the rated voltage (±20% tolerance), will cause an explosion.**
@@ -82,15 +91,21 @@ Note that the markings on a tantalum capacitor is opposite to an electrolytic ca
 
 Diode is a semiconductor based device categorized as an active device. It only allows one direction current through the device, named forward biased condition. In common, a forward bias (Vd) requires about 0.7 volts to break over to the conduction mode; in reverse bias, nearly no current through the device except while maximum reverse voltage applies on the diode (Vbr).
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/diode.jpg)
+
 #### Light Emitting Diode(LED)
 
 A LED is a light source device and widely used in interface between human & electronic product to indicate or display some information. LEDs are available in visible, ultraviolet and infra-red wavelengths with very high brightness. The outlook of Infra-red(IR) LED and visible light LED are the same. Use a digital camera capture a photo to identify a switch on IR LED.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/led.jpg)
 
 #### Transistor
 
 A transistor is a semiconductor based device categorized as an active device. It is an electronic switch controlled by voltage or current applied on terminals. There are two types of transistor commonly use – Bipolar junction
 transistors(BJT) & Field effect transistors (FET). The following are “ON” condition of BJT. 
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/transistor.jpg)
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/transistor1.jpg)
 
  
