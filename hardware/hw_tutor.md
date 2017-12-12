@@ -41,11 +41,13 @@ For axial resistors 2W or less, use a pattern of colored bands or stripes to ind
 resistance. Large power rating resistors and surface-mount resistors are marked
 numerically if the size is big enough to allow marking.
 
-####Color codes for Four-band axial axial resistors
+#### Color codes for Four-band axial axial resistors
 
 Remark: 1st band is wider than others with axial leads. If resistors have color stripes and axial leads, body color is not used for color-coded value. If a resistor has five stripes, the fourth stripe is the multiplier and the fifth is the tolerance.
 
-####Numeric codes for three digits Surface mount device (SMD) resistors
+#### Numeric codes for three digits Surface mount device (SMD) resistors
+
+
 
 
 
@@ -55,34 +57,34 @@ A capacitor is formed by two conductors surrounding an insulator. When a voltage
 
 Ceramic capacitors have stripes or dots with three or five colors. When there are five colors, the first and last indicate the temperature coefficient and tolerance respectively. The middle three colors give the value in picofarads(pF).
 
-####Color code for ceramic capacitors
+#### Color code for ceramic capacitors
 
-####Surface mount device (SMD) capacitor
+#### Surface mount device (SMD) capacitor
 
 Most of SMD capacitors are too tiny to have a marking on it. The capacitance & other information can be found on the reels or packing. If the space is enough for making on it, sometimes a non-standard coding is used, datasheet should be check for more detailed information.
 
-####Electrolytic Capacitor
+#### Electrolytic Capacitor
 
 Unlike ceramic capacitors, electrolytic capacitors have specified polarities. Electrolytic capacitors have very high capacitances and ESR and are usually used for rectifying power nets; Beware of the polarity where usually the negative terminal will be marked.
 
 **Never reverse the polarity or apply a voltage higher than that specified on the package or there will be risk of explosion.**
 
-####Tantalum Capacitor
+#### Tantalum Capacitor
 
 Tantalum capacitor is less commonly used due to its expensiveness and a lack of necessity. However, there may be some occasions where tantalum capacitors are deployed and extreme care must be taken. Tantalum capacitors have high capacitance-to-volume ratio and a ESR in between ceramic and electrolytic capacitors. However, it is extremely prone to explosion under abnormal usage or near-borderline working conditions.
 Note that the markings on a tantalum capacitor is opposite to an electrolytic capacitor, where the strip indicates a positive terminal.
 
 **Applying any voltage below the negative terminal on the positive terminal, or any voltage higher than 80% of the rated voltage (±20% tolerance), will cause an explosion.**
 
-### Diode
+#### Diode
 
 Diode is a semiconductor based device categorized as an active device. It only allows one direction current through the device, named forward biased condition. In common, a forward bias (Vd) requires about 0.7 volts to break over to the conduction mode; in reverse bias, nearly no current through the device except while maximum reverse voltage applies on the diode (Vbr).
 
-###Light Emitting Diode(LED)
+#### Light Emitting Diode(LED)
 
 A LED is a light source device and widely used in interface between human & electronic product to indicate or display some information. LEDs are available in visible, ultraviolet and infra-red wavelengths with very high brightness. The outlook of Infra-red(IR) LED and visible light LED are the same. Use a digital camera capture a photo to identify a switch on IR LED.
 
-###Transistor
+#### Transistor
 
 A transistor is a semiconductor based device categorized as an active device. It is an electronic switch controlled by voltage or current applied on terminals. There are two types of transistor commonly use – Bipolar junction
 transistors(BJT) & Field effect transistors (FET). The following are “ON” condition of BJT.
