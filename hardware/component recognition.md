@@ -103,6 +103,10 @@ A LED is a light source device and widely used in interface between human & elec
 
 Remark: The terminal pointed by the small triangle at the bottom of the led is the negative terminal
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/led_footprint.jpg)
+
+Remark: The pad with line marking on the white oil footprint is the negative terminal, put the negative terminal of the led on it.
+
 #### Transistor
 
 A transistor is a semiconductor based device categorized as an active device. It is an electronic switch controlled by voltage or current applied on terminals. There are two types of transistor commonly use – Bipolar junction
