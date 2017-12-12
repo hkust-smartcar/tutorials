@@ -35,7 +35,7 @@ And the component size is called in the following way.
 A resistor is a two terminals electronic component which is designed for producing a
 specific voltage drop across the terminals. It is manufactured with a specific value of ohm(Ω). The most common resistors are carbon-composition and wire-wound type. The primary characteristics of resistors are resistance value, power rating, tolerance, temperature coefficient and noisy figure.
 
-####Marking
+#### Marking
 
 For axial resistors 2W or less, use a pattern of colored bands or stripes to indicate
 resistance. Large power rating resistors and surface-mount resistors are marked
