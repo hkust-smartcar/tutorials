@@ -43,13 +43,13 @@ numerically if the size is big enough to allow marking.
 
 #### Color codes for Four-band axial axial resistors
 
-![2](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/color_code.png)
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/color_code.png)
 
 Remark: 1st band is wider than others with axial leads. If resistors have color stripes and axial leads, body color is not used for color-coded value. If a resistor has five stripes, the fourth stripe is the multiplier and the fifth is the tolerance.
 
 #### Numeric codes for three digits Surface mount device (SMD) resistors
 
-
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_resis_num_code.jpg)
 
 
 
