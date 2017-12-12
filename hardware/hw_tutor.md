@@ -1,6 +1,6 @@
 # Component recognition
 
-Author: Leslie Lee ([LeeChunHei](https://github.com/LeeChunHei))
+Author: Leslie Lee ([LeeChunHei](https://github.com/LeeChunHei))  Credit: HKUST Robotics Team Electronic Tutorial
 
 This tutorial will teach you how to recognize all basic components
 
@@ -87,7 +87,7 @@ A LED is a light source device and widely used in interface between human & elec
 #### Transistor
 
 A transistor is a semiconductor based device categorized as an active device. It is an electronic switch controlled by voltage or current applied on terminals. There are two types of transistor commonly use – Bipolar junction
-transistors(BJT) & Field effect transistors (FET). The following are “ON” condition of BJT.
+transistors(BJT) & Field effect transistors (FET). The following are “ON” condition of BJT. 
 
 
 
