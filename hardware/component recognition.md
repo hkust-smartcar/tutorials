@@ -103,9 +103,9 @@ A LED is a light source device and widely used in interface between human & elec
 
 Remark: The terminal pointed by the small triangle at the bottom of the led is the negative terminal
 
-![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/led_footprint.jpg)
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/led_footprint.png)
 
-Remark: The pad with line marking on the white oil footprint is the negative terminal, put the negative terminal of the led on it.
+Remark: The pad with line marking on the white oil footprint is the negative terminal, put the negative terminal of the led on it. 
 
 #### Transistor
 
