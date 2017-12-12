@@ -12,11 +12,15 @@ There are mainly two type of packaging
 
 There will be some through-hole conductive legs surrounded the component. You can solder this kind of component by matching the legs to the hole and solder tin on it.
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/through_hole.jpg)
+
 #### Surface-mount technology (SMD)
 
 There will be no through-hole legs surrounded the component and holes on the board. The conductive part of the component will just need to mount on the surface of the pad on the board. You just need to place the component on the footprint on the board and solder tin to secure it.
 
-And the component size is called in the following way.
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd.jpg)
+
+And the component size of two terminal package is called in the following way.
 
 | Size | dimensions, length * width |
 | :--: | -------------------------- |
