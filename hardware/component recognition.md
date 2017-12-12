@@ -47,11 +47,15 @@ numerically if the size is big enough to allow marking.
 
 #### Color codes for Four-band axial axial resistors
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/through_hole_res.jpg)
+
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/color_code.png)
 
 Remark: 1st band is wider than others with axial leads. If resistors have color stripes and axial leads, body color is not used for color-coded value. If a resistor has five stripes, the fourth stripe is the multiplier and the fifth is the tolerance.
 
 #### Numeric codes for three digits Surface mount device (SMD) resistors
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_res.jpg)
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_resis_num_code.jpg)
 
@@ -67,9 +71,13 @@ Ceramic capacitors have stripes or dots with three or five colors. When there ar
 
 #### Color code for ceramic capacitors
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/through_hole_cap.jpg)
+
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/cap_color_code.jpg)
 
 #### Surface mount device (SMD) capacitor
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_cap.jpg)
 
 Most of SMD capacitors are too tiny to have a marking on it. The capacitance & other information can be found on the reels or packing. If the space is enough for making on it, sometimes a non-standard coding is used, datasheet should be check for more detailed information.
 
