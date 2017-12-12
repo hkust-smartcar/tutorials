@@ -81,7 +81,7 @@ Unlike ceramic capacitors, electrolytic capacitors have specified polarities. El
 
 Tantalum capacitor is less commonly used due to its expensiveness and a lack of necessity. However, there may be some occasions where tantalum capacitors are deployed and extreme care must be taken. Tantalum capacitors have high capacitance-to-volume ratio and a ESR in between ceramic and electrolytic capacitors. However, it is extremely prone to explosion under abnormal usage or near-borderline working conditions.
 
-![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/tantalum cap.jpg)
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/tantalum_cap.jpg)
 
 Note that the markings on a tantalum capacitor is opposite to an electrolytic capacitor, where the strip indicates a positive terminal.
 
@@ -98,6 +98,10 @@ Diode is a semiconductor based device categorized as an active device. It only a
 A LED is a light source device and widely used in interface between human & electronic product to indicate or display some information. LEDs are available in visible, ultraviolet and infra-red wavelengths with very high brightness. The outlook of Infra-red(IR) LED and visible light LED are the same. Use a digital camera capture a photo to identify a switch on IR LED.
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/led.jpg)
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/led_package.jpg)
+
+Remark: The terminal pointed by the small triangle at the bottom of the led is the negative terminal
 
 #### Transistor
 
