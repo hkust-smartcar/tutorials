@@ -12,6 +12,10 @@ This tutorial will teach you how to solder
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/soldering_iron_handle.jpg)
 
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/beautiful_woman_soldering.jpg)
+
+
+
 ### Soldering Iron tip
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/soldering_iron_tip.jpg)
