@@ -29,3 +29,7 @@ Author: Leslie Lee([LeeChunHei](http://www.github.com/LeeChunHei))
 
 Author: MK
 
+* Basic mechanics tools
+* Solidworks
+* PID control
+* Vehicle dynamics
