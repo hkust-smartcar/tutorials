@@ -1,6 +1,8 @@
 # Component recognition
 
-Author: Leslie Lee ([LeeChunHei](https://github.com/LeeChunHei))  Credit: HKUST Robotics Team Electronic Tutorial
+Author: Leslie Lee ([LeeChunHei](https://github.com/LeeChunHei))
+
+Credit: HKUST Robotics Team Electronic Tutorial
 
 This tutorial will teach you how to recognize all basic components
 
@@ -144,7 +146,7 @@ A voltage regulator is an electronic circuit that provides a stable dc voltage b
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_regulator.jpg)
 
-Remark: Read the datasheet to control the output voltage of regulator for adjustable voltage regulator.
+Remark: Read the datasheet to control the output voltage of adjustable voltage regulator.
 
 
 
