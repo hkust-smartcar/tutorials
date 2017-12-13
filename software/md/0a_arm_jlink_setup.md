@@ -1,4 +1,4 @@
-# Set Up Eclipse
+# ARM/JLink Setup
 
 Author: Dipsy Wong ([dipsywong98](http://www.github.com/dipsywong98))
 

@@ -4,6 +4,12 @@ Author: Peter Tse ([mcreng](http://www.github.com/mcreng)), Dipsy Wong ([dipsywo
 
 This is a repository for the upcoming 2018 SmartCar Software Tutorial materials. The following is the syllabus.
 
+## Setup
+
+### ARM/JLink
+
+### MinGW
+
 ## C++ Programming
 
 ### Basic
@@ -43,23 +49,33 @@ This is a repository for the upcoming 2018 SmartCar Software Tutorial materials.
 
 ## k60 Control
 
-### set up eclipse
-
 ### libbase
+
+* Pin configuration
 
 - GPIO
 - PWM
 - UART
 - ADC
-- Pin configuration
+- PIT
+- SPI
+- I2C
+- Flash
+- NVIC
 
 ### libsc
 
-- Servo
-- Motor
+- Battery meter
+- Bluetooth
+- Button
 - Camera
 - Encoder
-- Bluetooth
+- Joystick
+- LCD
+- LED
+- Motor
+- MPU
+- Servo
 
 ## Git
 

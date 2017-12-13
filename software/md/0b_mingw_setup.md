@@ -1,6 +1,6 @@
 # MinGW Setup
 
-Author: Peter Tse (mcreng)
+Author: Peter Tse ([mcreng](https://github.com/mcreng))
 
 MinGW is a C++ compilation tool for Windows. You may use MinGW to compile the source codes for ordinary C++ projects.
 
@@ -29,4 +29,17 @@ MinGW is a C++ compilation tool for Windows. You may use MinGW to compile the so
     - Append `-std=c++11` to Other flags
     - Apply and close
 
-  ​
+- Test
+
+  - Right-click your project -> New -> File -> main.cpp
+
+  - Paste the following code and build
+
+    ```C++
+    #include <iostream>
+    int main() {
+      std::cout << "Hello World" << std::endl;
+    }
+    ```
+
+  - Run your program and see if it outputs "Hello World".
