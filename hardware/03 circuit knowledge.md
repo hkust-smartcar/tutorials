@@ -2,7 +2,7 @@
 
 Author: Leslie Lee ([LeeChunHei](https://github.com/LeeChunHei))
 
-This tutorial will teach you some basic circuit knowledge and three basic circuit.
+This tutorial will teach you some basic circuit.
 
 ## Pull UP
 
@@ -18,3 +18,6 @@ Pull down circuit is similar to pull up circuit, but there is a pull-down resist
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/pull_down.png)
 
+## Debounce
+
+Debounce circuit consists of resistors and capacitor. There is a pull up resistor, it ensures the logic level is high when the state is not set and charge the capacitor. So when the signal is bouncing, the capacitor will 
