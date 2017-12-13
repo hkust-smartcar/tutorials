@@ -40,7 +40,7 @@ git config --global user.name "Your Name"
 A repo(repository) is a programming project organized by git, and stored on some git server, which is GitHub.
 
 To create a repo, login GitHub and [click me](https://github.com/new). Alternatively, you can go to your profile page https://github.com/{your username}?tab=repositories and click the "new" button. 
-![4](C:\Users\dipsy\Desktop\ROBO\SmartCarSWTutorial18\img\git\4.PNG)
+![4](https://github.com/mcreng/SmartCarSWTutorial18/blob/master/img/git/4.PNG?raw=true)
 
 
 
@@ -54,7 +54,7 @@ _AKA let git know where you need git, and where to set up your repo_
 
 Right click at your working directory, click git bash here
 
-   ![1_bash_here](C:\Users\dipsy\Desktop\ROBO\SmartCarSWTutorial18\img\git\1_bash_here.PNG)
+   ![1_bash_here](https://github.com/mcreng/SmartCarSWTutorial18/blob/master/img/git/1_bash_here.PNG?raw=true)
 
 #### Option2: 
 
@@ -72,11 +72,11 @@ Git URL for GitHub is `https://github.com/{your username}/{your repo name}.git`.
 
 For non-empty repo, you can get the git URL here
 
-![5.3](C:\Users\dipsy\Desktop\ROBO\SmartCarSWTutorial18\img\git\5.3.PNG)
+![5.3](https://github.com/mcreng/SmartCarSWTutorial18/blob/master/img/git/5.3.PNG?raw=true)
 
 New repo
 
-![5.3_](C:\Users\dipsy\Desktop\ROBO\SmartCarSWTutorial18\img\git\5.3_.PNG)
+![5.3_](https://github.com/mcreng/SmartCarSWTutorial18/blob/master/img/git/5.3_.PNG?raw=true)
 
 ### 8. Set up repo on your computer 
 
@@ -109,7 +109,7 @@ This is useful when you have created an eclipse project, and you want to turn th
 
 ### 9. Basic Flow of Git
 
-![Git Flow](C:\Users\dipsy\Desktop\ROBO\SmartCarSWTutorial18\img\git\Git Flow.png)
+![Git Flow](https://github.com/mcreng/SmartCarSWTutorial18/blob/master/img/git/Git%20Flow.png?raw=true)
 
 #### 9.0 Overview
 
