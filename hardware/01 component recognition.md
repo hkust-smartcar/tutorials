@@ -12,13 +12,13 @@ There are mainly two type of packaging
 
 #### Through-hole technology
 
-There will be some through-hole conductive legs surrounded the component. You can solder this kind of component by matching the legs to the hole and solder tin on it.
+There will be some through-hole conductive legs surrounded the component. You can solder this kind of component by matching the legs to the hole and place solder on it.
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/through_hole.jpg)
 
 #### Surface-mount technology (SMD)
 
-There will be no through-hole legs surrounded the component and holes on the board. The conductive part of the component will just need to mount on the surface of the pad on the board. You just need to place the component on the footprint on the board and solder tin to secure it.
+There will be no through-hole legs surrounded the component and holes on the board. The conductive part of the component will just need to mount on the surface of the pad on the board. You just need to place the component on the footprint on the board and place solder to secure it.
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd.jpg)
 
