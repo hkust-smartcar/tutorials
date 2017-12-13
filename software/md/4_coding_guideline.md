@@ -39,10 +39,10 @@ In general, choose names that are meaningful and readable.
 
 #### Method/Function Names
 
-* Capitalize the first letter of each word. The function name should start with a verb if possible.
+* Capitalize the first letter of each word except first word. The function name should start with a verb if possible.
 
   ```C++
-  FindOneLeftEdge();
+  findOneLeftEdge();
   ```
 
   Some examples of prefix verbs.
@@ -56,10 +56,12 @@ In general, choose names that are meaningful and readable.
   | Calc/Find/Compute | Computation                              |
   | Print             | Print                                    |
 
+  Use 'on' for interrupt functions, for example `onButtonClick()`.
+
 * The name of the class should not be duplicated in a method name.
 
   ```C++
-  Edge Push(); // not Edge PushEdge();
+  Edge push(); // not Edge PushEdge();
   ```
 
 #### Namespace Names
@@ -269,7 +271,7 @@ In general, choose names that are meaningful and readable.
   ```C++
   Clamp(servoBounds.kLeft,
         pidController.Calc(error),
-        servoBounds.kRight)
+        servoBounds.kRight);
   ```
 
 #### Scopes
@@ -369,7 +371,7 @@ In general, choose names that are meaningful and readable.
 * Use boolean functions if applicable.
 
   ```C++
-  bool FindOneLeftEdge() {
+  bool findOneLeftEdge() {
     // find one left edge, return false if failed
     return true;
   }
@@ -409,6 +411,18 @@ In general, choose names that are meaningful and readable.
   const uint16_t MAX_DISTANCE 400; // Max distance the sensor can detect, in km
   ```
 
+* Always specify the namespace/preprocessor directives that are being closed at the end.
+
+  ```C++
+  namespace algorithm {
+    /* ... */
+  } // namespace algorithm
+
+  #ifdef USE_MOTOR
+  /* ... */
+  #endif // USE_MOTOR
+  ```
+
 ### Classes
 
 * Class declaration should be purely prototypes and attribute declarations.
@@ -440,14 +454,29 @@ In general, choose names that are meaningful and readable.
   ```C++
   class Motor {
   private:
-    virtual void OnSetPower(uint16_t power) = 0;
+    virtual void onSetPower(uint16_t power) = 0;
   };
 
   class AlternateMotor : public Motor {
   private:
-    void OnSetPower(uint16_t power) override;
+    void onSetPower(uint16_t power) override;
   };
   ```
+
+* Member functions should be declared `const` if it does not change any class attributes.
+
+  ```C++
+  class Motor {
+  public:
+    int getPower() const;
+    void setPower();
+    
+  private:
+    int m_power;
+  }
+  ```
+
+* All getter should return by copy. If it is necessary to return by reference, you may consider making the member attribute public.
 
 ### Templates
 
@@ -462,6 +491,16 @@ In general, choose names that are meaningful and readable.
   ...
   ```
 
+
+### Namespace
+
+* Avoid `using namespace`, use `using` instead.
+
+  ```C++
+  using std::math;
+  // instead of
+  using namespace std;
+  ```
 
 ### Files
 
