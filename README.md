@@ -21,7 +21,7 @@ Author: Leslie Lee([LeeChunHei](http://www.github.com/LeeChunHei))
 
 * Basic component recognition
 * Soldering (soon be completed)
-* Basic circuit knowledge (soon be completed)
+* Basic circuit knowledge
 * Board design (soon be completed)
 * MCU hardware introduction (soon be completed)
 
