@@ -99,6 +99,14 @@ Note that the markings on a tantalum capacitor is opposite to an electrolytic ca
 
 **Applying any voltage below the negative terminal on the positive terminal, or any voltage higher than 80% of the rated voltage (±20% tolerance), will cause an explosion.**
 
+### Inductor
+
+Inductor is a passive two-terminal electrical component that stores electrical energy when electric current flows through it. It is similar to the opposite of a capacitor. It will filter high frequency noise.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/through_hole_inductor.jpg)
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_inductor.jpg)
+
 ### Diode
 
 Diode is a semiconductor based device categorized as an active device. It only allows one direction current through the device, named forward biased condition. In common, a forward bias (Vd) requires about 0.7 volts to break over to the conduction mode; in reverse bias, nearly no current through the device except while maximum reverse voltage applies on the diode (Vbr).
@@ -136,7 +144,7 @@ A voltage regulator is an electronic circuit that provides a stable dc voltage b
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_regulator.jpg)
 
-
+Remark: Read the datasheet to control the output voltage of regulator for adjustable voltage regulator.
 
 
 
