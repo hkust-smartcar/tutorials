@@ -23,3 +23,18 @@ Pull down circuit is similar to pull up circuit, but there is a pull-down resist
 Debounce circuit consists of resistors and capacitor. There is a pull up resistor, it ensures the logic level is high when the state is not set and charge the capacitor. So when the signal is bouncing, the capacitor will discharge and prevent voltage dropping which will affect the logic level.
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/debounce.jpg)
+
+## High Pass Filter
+
+High pass filter is a filtering circuit that passes signal having frequency higher than the cutoff frequency.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/high_pass_filter.png)
+
+## Low Pass Filter
+
+Low pass filter is a filtering circuit that passes signal having frequency lower than the cutoff frequency.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/low_pass_filter.png)
+
+
+
