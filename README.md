@@ -1,6 +1,10 @@
 # Smart Car Tutorials
 
-This repository contains materials of tutorials in Smart Car. The repository contains:
+This repository contains materials of tutorials in Smart Car. 
+
+### Schedule for SmartCar 2018
+
+![img](https://i.imgur.com/b9Li5IA.png)
 
 ### Software Tutorials (`/software`)
 
@@ -24,10 +28,4 @@ Author: Leslie Lee([LeeChunHei](http://www.github.com/LeeChunHei))
 ### Mechanics Tutorials (`/mechanics`)
 
 Author: MK
-
-### Schedule for 2018
-
-![img](https://i.imgur.com/b9Li5IA.png)
-
-
 
