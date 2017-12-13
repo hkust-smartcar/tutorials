@@ -33,9 +33,4 @@ This is a repository for the upcoming 2018 SmartCar Hardware Tutorial materials.
 
 ## MCU hardware introduction
 
-* internal modulus introduction
-
-* pin push pull introduction
-
-  ​
-
+​
