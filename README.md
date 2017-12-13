@@ -13,7 +13,13 @@ Author: Peter Tse ([mcreng](http://www.github.com/mcreng)), Dipsy Wong ([dipsywo
 
 ### Hardware Tutorials (`/hardware`)
 
-Author: Leslie Lee
+Author: Leslie Lee([LeeChunHei](http://www.github.com/LeeChunHei))
+
+* Basic component recognition
+* Soldering (soon be completed)
+* Basic circuit knowledge (soon be completed)
+* Board design (soon be completed)
+* MCU hardware introduction (soon be completed)
 
 ### Mechanics Tutorials (`/mechanics`)
 

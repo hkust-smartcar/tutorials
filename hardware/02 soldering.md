@@ -75,6 +75,3 @@ You will use tweezer to pick the component, place it to the correct place and fi
 After introducing all the tools you will need to use during soldering, it's the time to learn how to solder components.
 
 
-
-
-
