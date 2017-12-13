@@ -99,13 +99,13 @@ Note that the markings on a tantalum capacitor is opposite to an electrolytic ca
 
 **Applying any voltage below the negative terminal on the positive terminal, or any voltage higher than 80% of the rated voltage (±20% tolerance), will cause an explosion.**
 
-#### Diode
+### Diode
 
 Diode is a semiconductor based device categorized as an active device. It only allows one direction current through the device, named forward biased condition. In common, a forward bias (Vd) requires about 0.7 volts to break over to the conduction mode; in reverse bias, nearly no current through the device except while maximum reverse voltage applies on the diode (Vbr).
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/diode.jpg)
 
-#### Light Emitting Diode(LED)
+###Light Emitting Diode(LED)
 
 A LED is a light source device and widely used in interface between human & electronic product to indicate or display some information. LEDs are available in visible, ultraviolet and infra-red wavelengths with very high brightness. The outlook of Infra-red(IR) LED and visible light LED are the same. Use a digital camera capture a photo to identify a switch on IR LED.
 
@@ -119,7 +119,7 @@ Remark: The terminal pointed by the small triangle at the bottom of the led is t
 
 Remark: The pad with line marking on the white oil footprint is the negative terminal, put the negative terminal of the led on it. 
 
-#### Transistor
+### Transistor
 
 A transistor is a semiconductor based device categorized as an active device. It is an electronic switch controlled by voltage or current applied on terminals. There are two types of transistor commonly use – Bipolar junction
 transistors(BJT) & Field effect transistors (FET). The following are “ON” condition of BJT. 
@@ -127,6 +127,16 @@ transistors(BJT) & Field effect transistors (FET). The following are “ON” co
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/transistor.jpg)
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/transistor1.jpg)
+
+### Regulator
+
+A voltage regulator is an electronic circuit that provides a stable dc voltage by stepping up or down the voltage from the supply voltage.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/through_hole_regulator.jpg)
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/smd_regulator.jpg)
+
+
 
 
 
