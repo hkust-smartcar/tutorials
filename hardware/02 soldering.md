@@ -58,6 +58,22 @@ And one is hard flux.
 
 They are both the same.
 
+## Tweezer
+
+There are mainly two type of tweezer you will find in the lab, one is straight
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/tweezer.jpg)
+
+And one is curved
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/tweezer_curved.jpg)
+
+You will use tweezer to pick the component ,place it to the correct place and fix its position while soldering.
+
+## Soldering
+
+After introducing all the tools you will need to use during soldering, it's the time to learn how to solder components.
+
 
 
 
