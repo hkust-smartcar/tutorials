@@ -6,9 +6,9 @@ This tutorial will teach you how to solder
 
 ## Soldering Iron
 
-This is the main device for soldering. It will generate heat on its tip and melt the solder to connect the components together.
+This is the main device for soldering. It will generate heat on its tip and melt the solder to connect components together.
 
-We suggest you to set temperature to 300 - 310 ℃ for normal soldering, temperature higher than 320 ℃ may causes the pad on the board tear off and components damaged,especially microcontroller unit (MCU).
+We suggest you to set temperature to 300-310 ℃ for normal soldering, temperature higher than 320 ℃ may causes the pad on the board tear off and components damaged, especially microcontroller unit (MCU).
 
 And **REMEMBER** to **TURN OFF** the soldering iron when you leave.
 
@@ -68,7 +68,7 @@ And one is curved
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/tweezer_curved.jpg)
 
-You will use tweezer to pick the component ,place it to the correct place and fix its position while soldering.
+You will use tweezer to pick the component, place it to the correct place and fix its position while soldering.
 
 ## Soldering
 

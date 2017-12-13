@@ -148,7 +148,44 @@ A voltage regulator is an electronic circuit that provides a stable dc voltage b
 
 Remark: Read the datasheet to control the output voltage of adjustable voltage regulator.
 
+## Connector
 
+Besides the above basic components, you also need to deal with different type of connector.
 
+For each type of connector, there will be female and male version.
 
+### Female version
 
+Female version of connector always uses on supply side, which means, female connector will use at the side that giving out electricity, like the battery side. Female version of connector is used in supply side is because there are insulated material protected the metal pin of the connector, this can prevent the connector short circuit can causes serious consequence.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/female_connector.jpg)
+
+### Male version
+
+So male version of connector is used on the receiver side, as receiver side don't afraid of short circuit when there is no power supply. And feature of male connector is no insulated material between pins.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/male_connector.jpg)
+
+**DON'T mix up male and female connector when you are doing wiring**
+
+And following is the connector you will meet the most in the lab
+
+### T Plug
+
+T plug is a connector with two thick copper terminal, we will use it at power connection.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/t_plug.jpg)
+
+### Multi-pin Header
+
+Multi-pin header is a connector with multiple pins, we will use it at signal connection.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/multi_pin_header_male.jpg)
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/multi_pin_header_female.jpg)
+
+### XT60
+
+XT60 is a connector also with two thick copper terminal like T plug, but it's more secure than T plug.
+
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/xt60.jpg)
