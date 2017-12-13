@@ -17,7 +17,7 @@ Author: Peter Tse ([mcreng](http://www.github.com/mcreng)), Dipsy Wong ([dipsywo
 
 ### Hardware Tutorials (`/hardware`)
 
-Author: Leslie Lee([LeeChunHei](http://www.github.com/LeeChunHei))
+Author: Leslie Lee ([LeeChunHei](http://www.github.com/LeeChunHei))
 
 * Basic component recognition
 * Soldering (soon be completed)
@@ -27,7 +27,7 @@ Author: Leslie Lee([LeeChunHei](http://www.github.com/LeeChunHei))
 
 ### Mechanics Tutorials (`/mechanics`)
 
-Author: MK
+Author: MK ([mkwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww](https://github.com/mkwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww))
 
 * Basic mechanics tools
 * Solidworks
