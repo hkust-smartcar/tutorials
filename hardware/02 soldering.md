@@ -6,7 +6,15 @@ This tutorial will teach you how to solder
 
 ## Soldering Iron
 
+This is the main device for soldering. It will generate heat on its tip and melt the solder to connect the components together.
+
+We suggest you to set temperature to 300 - 310 ℃ for normal soldering, temperature higher than 320 ℃ may causes the pad on the board tear off and components damaged,especially microcontroller unit (MCU).
+
+And **REMEMBER** to **TURN OFF** the soldering iron when you leave.
+
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/soldering_iron.jpg)
+
+Below is the introduction of soldering iron.
 
 ### Soldering Iron Handle
 
@@ -18,7 +26,7 @@ This tutorial will teach you how to solder
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/beautiful_woman_soldering.jpg)
 
-If you did your soldering job like this beautiful woman, your hand will have a serious burn injury.
+If you did your soldering job like this beautiful woman, your hand will have a serious burn injury, because the metal part of the soldering iron handle has a very high temperature when the soldering iron is on.
 
 So **DON'T** be stupid.
 
@@ -28,7 +36,7 @@ It is the tip that we melt and coat solder on it, remember to clean the tip with
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/soldering_iron_tip.jpg)
 
-There are different type of soldering iron tip, we mostly use K type soldering iron tip for normal component soldering and 3C type soldering iron tip for high density pin component soldering.
+There are different type of soldering iron tip, we mostly use K type soldering iron tip for normal component soldering and 3C type soldering iron tip for high density pin component soldering, like MCU and regulator soldering.
 
 ## Solder
 
@@ -38,7 +46,7 @@ Solder is a metal alloy used to create a bond between components. It has a low m
 
 ## Flux
 
-Flux is a flowing agent in soldering. It will lower the melting point of the solder. We will use it on soldering component with high density pin, like microcontroller unit (MCU) and regulator, as it allows solder flowing between the pins and without sticking them together.
+Flux is a flowing agent in soldering. It will lower the melting point of the solder. We will use it on soldering component with high density pin, as it allows solder flowing between the pins and without sticking them together.
 
 There are two type of flux in lab, one is soft flux.
 
