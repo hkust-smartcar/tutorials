@@ -4,7 +4,13 @@ Author: Leslie Lee ([LeeChunHei](https://github.com/LeeChunHei))
 
 This tutorial will teach you to design your own board.
 
-## Install Altium Designer
+## Set Up Altium Designer
+
+Altium Designer is a very popular and powerful software for designing circuit board.
+
+In SmartCar team we will use this software to draw the schematics and route the PCB board.
+
+### Install Altium Designer
 
 1. Download Altium Designer in the following link
 
@@ -18,10 +24,14 @@ This tutorial will teach you to design your own board.
 
 5. Open Altium Designer and reload the licenses.
 
-## Set Up Altium Designer Library
+### Add Altium Designer Libraries
 
 1. Download all the libraries from the following link
 
+   https://github.com/hkust-smartcar/tutorials/raw/master/hardware/libraries.zip
+
+2. ​
 
 
-   ​
+
+   
