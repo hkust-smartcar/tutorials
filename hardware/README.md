@@ -23,7 +23,6 @@ This is a repository for the upcoming 2018 SmartCar Hardware Tutorial materials.
 * pull up pull down
 * debounce
 * filtering
-* voltage regulation
 * motor circuit
 
 ## Board design
