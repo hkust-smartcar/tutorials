@@ -158,7 +158,7 @@ For each type of connector, there will be female and male version.
 
 Female version of connector always uses on supply side, which means, female connector will use at the side that giving out electricity, like the battery side. Female version of connector is used in supply side is because there are insulated material protected the metal pin of the connector, this can prevent the connector short circuit can causes serious consequence.
 
-![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/female_connector.jpg)
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/female_connector.JPG)
 
 ### Male version
 
@@ -189,3 +189,4 @@ Multi-pin header is a connector with multiple pins, we will use it at signal con
 XT60 is a connector also with two thick copper terminal like T plug, but it's more secure than T plug.
 
 ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/xt60.jpg)
+
