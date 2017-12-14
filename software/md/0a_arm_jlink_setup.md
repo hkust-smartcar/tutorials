@@ -123,10 +123,18 @@ https://youtu.be/v834HF_Uha4?t=5m
 
 - Goto [C/C++ Build : Discovery Options]
   - Tools: [Cross G++ Compiler]
+
   - Check [Automate discovery of paths and symbols]
+
+    - Ignore the warning "this discovery method is deprecated" if any
+      (This warning will appear if you are using Oxygen)
+
   - Discovery profile: [Managed Build System - ...]
+
   - Compiler invocation command : `arm-none-eabi-g++`
+
   - Append ` –std=gnu++11` to Compiler invocation argument
+
   - If you can's see the options, make the window full screen
 
     ![3.4.2](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/3.4.2.PNG)
