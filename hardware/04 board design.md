@@ -26,12 +26,33 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
 ### Add Altium Designer Libraries
 
-1. Download all the libraries from the following link
+1. Download all the libraries from the following link.
 
    https://github.com/hkust-smartcar/tutorials/raw/master/hardware/libraries.zip
 
-2. ​
+2. Unzip all the files to where you want to place it.
+
+3. Open library in the following way.
+
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/open_library_1.png)
+
+   or
+
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/open_library_2.png)
+
+4. Click libraries.
+
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/open_library_libraries.png)
+
+5. Click install and selected all the libraries that you just unzip.
+
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/libraries_install.png)
+
+6. Then all the libraries are installed.
+
+
+## Start A New Project
 
 
 
-   
+
