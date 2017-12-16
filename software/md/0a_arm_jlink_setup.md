@@ -287,9 +287,40 @@ Whenever you want to flash program, clean project -> build project -> click the 
 
 ![img](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/6.PNG)
 
-### Extra Tips When Facing Errors
+### Troubleshooting
 
-Whenever you fail flashing, try this:
+##### 1. G++ GCC not found (By [Daniel Cheung](https://github.com/danvim) ):
+
+Eclipse is just going to try using the normal g++
+
+The way to fix it, is to do the following steps
+
+The problem is you will not be able to change the prefix with some settings because the tools settings will disappear, you need to check to automate make first, then change the tool settings and confirm and change back the auto make to manual
+
+![t2](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/t2.jpg)
+
+More explanations:
+ok by default, this screen looks like this:
+
+![t1](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/t1.jpg)
+
+But, if you uncheck this:
+
+![t2](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/t2.jpg)
+
+the page reveals more option
+
+![t3](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/t3.jpg)
+
+this being empty is probably the culprit
+
+![t4](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/t4.jpg)
+
+So, this implies that the MakeFile was supposed to be able to indicate the prefix for the compiler, but it didn't for some reason.
+
+I think that's why Eclipse decided to hide these tabs, because they were supposed to be decided in the MakeFile (me leering at whoever made the MakeFile)
+
+##### 2. Whenever you fail flashing, try this:
 
 1. Refresh project
 2. Clean project
@@ -300,14 +331,18 @@ If still fail, try building the library again, and repeat steps above
 
 
 
-If launching sequence error, unplug and plug the USB if you are flashing program.
+##### 3. If launching sequence error, 
+
+Unplug and plug the USB if you are flashing program.
 If still cannot solve, it may be you can config the debugger wrongly. 
 If still cannot solve, try restarting eclipse and computer.
 ![7_sequence_error](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/7_sequence_error.PNG)
 
 
 
-If GDB server fail, check your connection of JLink, and check whether you have turn on your smart car
+##### 4. If GDB server fail, 
+
+check your connection of JLink, and check whether you have turn on your smart car
 ![6_fin](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/6_fin.PNG)
 
 
