@@ -146,7 +146,7 @@ https://youtu.be/v834HF_Uha4?t=5m
   - [Add...] -> Name: `SCCC_CONFIG` -> Value: `2017_INNO`
   - Append `{ Path of GNU Tools for ARM folder }\bin` to `[PATH]` Variable
   - Append `{ Path of GNU Make folder }\bin` to `[PATH]` Variable
-  - [Apply]![img](file:///C:/Users/dipsy/Desktop/ROBO/SmartCarSWTutorial18/img/eclipse/3.4.3.PNG?lastModify=1512410959)
+  - [Apply]![img](https://github.com/mcreng/SmartCarSWTutorial18/blob/master/img/eclipse/3.4.3.PNG?raw=true)
 - **Build the library**
 
   ![3.4.5](https://raw.githubusercontent.com/mcreng/SmartCarSWTutorial18/master/img/eclipse/3.4.5.PNG)
