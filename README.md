@@ -20,7 +20,7 @@ Author: Peter Tse ([mcreng](http://www.github.com/mcreng)), Dipsy Wong ([dipsywo
 Author: Leslie Lee ([LeeChunHei](http://www.github.com/LeeChunHei))
 
 * Basic component recognition
-* Soldering (soon be completed)
+* Soldering
 * Basic circuit knowledge
 * Board design (soon be completed)
 * MCU hardware introduction (soon be completed)
