@@ -74,5 +74,5 @@ Here provides the detailed explanations of functionalities of the five functions
 
 ### Submission
 
-Another C++ program which includes `byte.h` is used to check whether your functions have been implemented correctly. Please, therefore, make sure you do not change the filename and function names when you submit your files. Finish your implementation in `byte.cpp` and submit it with a comment containing your name. Submission deadline is ????/??/??.
+The assignment should be done and checked during the tutorial on 20/12.
 

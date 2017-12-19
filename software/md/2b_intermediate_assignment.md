@@ -204,5 +204,11 @@ Address		Name	Value
 
 ### Submission
 
-Another C++ program which includes `address.h` is used to check whether your functions have been implemented correctly. Please, therefore, make sure you do not change the filename and function names when you submit your files. Finish your implementation in `address.cpp` and submit it with a comment containing your name. Submission deadline is ????/??/??.
+This assignment should be submitted through GitHub by 27/12. 
+
+* Go to https://github.com/hkust-smartcar/Internal2018
+* Create a new branch with the name as your English name
+* Create a new folder named `Address`.
+* Upload `address.cpp`, `address.h` and `main.cpp` to your branch/`Address`
+* Comments will be posted in your branch after due date
 
