@@ -77,8 +77,8 @@ class Address{
    * @return int Converted integer
    * @return bool Whether the action is successful
    */
-  static std::pair<int, bool> strtoint(const std::string& str, bool isHex = false){
-	int result;
+  static std::pair<long long int, bool> strtoint(const std::string& str, bool isHex = false){
+	long long int result;
 	std::istringstream convert(str);
 	if (!isHex){
 	  if (!(convert >> result)) return std::make_pair(0, false);
