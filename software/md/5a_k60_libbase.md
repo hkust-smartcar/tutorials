@@ -274,7 +274,7 @@ Location: `libbase/k60/pit.h`
 
 | Config    | Datatype     | Description                              |
 | --------- | ------------ | ---------------------------------------- |
-| `channel` | `uint8_t`    | 0~3, different                           |
+| `channel` | `uint8_t`    | 0~3, different channel (timer)           |
 | `count`   | `uint32_t`   | 1 count = timer oscillate once<br />75000 counts = 1ms |
 | `isr`     | `void(Pit*)` | pit listener                             |
 
@@ -299,6 +299,70 @@ int main(){
 ### SPI
 
 ### I2C
+
+I2C (pronounced as i-square-c) is a protocol widely used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. It is multi-master multi-slave. One example of module which uses I2C is MPU6050 (Gyro+Accelerometer)
+
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/I2C.svg/220px-I2C.svg.png)
+
+Location : `libbase/k60/i2c_master.h` `libbase/k60/soft_i2c_master.h` 
+(soft_ means software emulated)
+(There is number of inherence relationship inside the implementation of i2c)
+
+| Config                        | Datatype     | Description                              |
+| ----------------------------- | ------------ | ---------------------------------------- |
+| ` scl_pin`                    | ` Pin::Name` | clock pin                                |
+| `sda_pin`                     | ` Pin::Name` | arbitrated pin                           |
+| `baud_rate_khz`               | `uint16_t`   | Set the baud rate. The standard i2c frequency is 100kHz, many later devices can go up to 400kHz (such as MPU6050). Misbehavior if too high |
+| ` scl_low_timeout`            | `uint16_t`   | click low timeout                        |
+| `is_use_repeated_start`       | `bool`       | Generate a START signal followed by a calling command without  generating a STOP signal first. This saves the time needed for the  STOP signal |
+| `min_sda_hold_time_ns`        | `uint16_t`   | *The SDA hold time is the delay from the falling edge of SCL to the  changing of SDA |
+| ` min_scl_start_hold_time_ns` | `uint16_t`   | *The SCL start hold time is the delay from the falling edge of SDA  while SCL is high (start condition) to the falling edge of SCL |
+| `min_scl_stop_hold_time_ns`   | `uint16_t`   | *The SCL stop hold time is the delay from the rising edge of SCL to  the rising edge of SDA while SCL is high (stop condition) |
+| `is_high_drive_mode`          | `bool`       | *                                        |
+| `freq_khz`                    | `uint32_t`   | ^software simulated baud rate            |
+
+*for normal i2c only, ^for soft i2c only
+
+Sample Code:
+
+```C++
+I2cMaster::Config config;
+config.scl_pin = libbase::k60::Pin::Name::kPtb0;
+config.sda_pin = libbase::k60::Pin::Name::kPtb1;
+config.baud_rate_khz = 400;
+config.scl_low_timeout = 1000;
+
+I2cMaster i2c(config);
+
+//address of slave (for example MPU6050), address of the interesting register, byte
+if(i2c.SendByte(0x68, 0x72, 0x03)){	
+  //successfully sent
+}else{
+  //fail
+}
+
+Byte byte[10]={1,2,3,4,5,6,7,8,9,10};
+//address of slave, address of the interesting register, byte array (pointer), size
+if(i2c.SendBytes(0x68, 0x72, byte, 10)){
+  //successfully sent
+}else{
+  //fail
+}
+
+Byte result;
+//address of slave, address of the interesting register, address for result
+if(i2c.GetByte(0x68, 0x72, &result)){
+  //successfully get
+  deal_with_result(result);
+}else{
+  //fail
+}
+
+//address of slave, Address of the interesting register, size
+vector<Byte> results = i2c.GetBytes(0x68, 0x72, 10);
+```
+
+Note: you may use `assert` function which accepts a value that `assert(0)` will terminate the program. You need `#include <cassert>` for it.
 
 ### Flash
 
