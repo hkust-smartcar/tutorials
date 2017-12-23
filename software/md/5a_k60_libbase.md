@@ -298,6 +298,49 @@ int main(){
 
 ### SPI
 
+The Serial Peripheral Interface bus (SPI) is a synchronous serial communication interface specification used for short distance communication. One example of module which uses SPI is St7735r (tft-Lcd)
+
+Location: `libbase/k60/spi_master.h` `libbase/k60/soft_spi_master.h`
+(soft_ means software emulated)
+(There is number of inherence relationship inside the implementation of i2c)
+
+| Config                    | Datatype            | Description                              |
+| ------------------------- | ------------------- | ---------------------------------------- |
+| `sout_pin`                | `Pin::Name`         | At least one among SIN/SOUT have to be set |
+| `sin_pin`                 | `Pin::Name`         | At least one among SIN/SOUT have to be set |
+| `sck_pin`                 | `Pin::Name`         | clock pin                                |
+| `baud_rate`               | `uint32_t`          | *Baud rate hint, the closest possible value will be used |
+| `frame_size`              | `uint8_t`           | Number of bits transfered per frame, [4, 16] |
+| `is_sck_idle_low`         | `bool`              | Set the clock polarity                   |
+| `is_sck_capture_first`    | `bool`              | Set the clock phase, if true, data is captured on the leading edge of SCK and changed on the following edge |
+| `is_msb_first`            | `bool`              | Specifies whether the LSB or MSB of the frame is transferred first |
+| `slaves`                  | `Config::Slave`     | Slaves connected to this SPI instance, a maximum of 6 slaves are supported. The array should be filled in sequence (from [0] to [5])  The position will serve as the slave id used in Exchange() |
+| `pcs_to_sck_delay_ns`     | `uint32_t`          | *                                        |
+| `after_sck_delay_ns`      | `uint32_t`          | *                                        |
+| `after_transfer_delay_ns` | `uint32_t`          | *                                        |
+| `is_modified_timing`      | `bool`              | *                                        |
+| `tx_isr`                  | `OnTxFillListener`  | *                                        |
+| `rx_isr`                  | `OnRxDrainListener` | *                                        |
+
+*for normal spi only
+
+Sample Code
+
+```C++
+SpiMaster::Config config;
+config.sout_pin = LIBSC_ST7735R_SDAT;
+config.sck_pin = LIBSC_ST7735R_SCLK;
+config.baud_rate_khz = 15000;
+config.frame_size = 8;
+config.is_sck_idle_low = true;
+config.is_sck_capture_first = true;
+config.is_msb_firt = true;
+SpiMaster spi(config);
+uint16_t feedback = spi.ExchangeData(0,data);//slave id, exchange data buffer, const uint16_t
+```
+
+Here is only some parts of the spi methods, you may look deeper yourself.
+
 ### I2C
 
 I2C (pronounced as i-square-c) is a protocol widely used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication. It is multi-master multi-slave. One example of module which uses I2C is MPU6050 (Gyro+Accelerometer)
