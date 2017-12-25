@@ -20,9 +20,9 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
 3. Close Altium Designer.
 
-4. Copy msimg32.dll from the zip to the install directory.
+4. Copy 'License/msimg32.dll' from the zip to the install directory.
 
-5. Open Altium Designer and reload the licenses.
+5. Open Altium Designer and reload the license by clicking "Add standalone license file" and load one of the license files in 'Licenses/' from the zip
 
 ### Add Altium Designer Libraries
 
