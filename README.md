@@ -10,6 +10,10 @@ This repository contains materials of tutorials in Smart Car.
 
 ![img](https://i.imgur.com/AzEsp1l.png)
 
+### Internal Track
+
+![img](https://i.imgur.com/DYUUTja.png)
+
 ### Software Tutorials (`/software`)
 
 Author: Peter Tse ([mcreng](http://www.github.com/mcreng)), Dipsy Wong ([dipsywong98](http://www.github.com/dipsywong98))
