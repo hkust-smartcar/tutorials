@@ -19,12 +19,12 @@ https://github.com/mcreng/SmartCarSWTutorial18/blob/master/0b_mingw_setup.md
   - [MacOS](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1/eclipse-cpp-neon-1-macosx-cocoa-x86_64.tar.gz)
   - [Linux 32 bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1/eclipse-cpp-neon-1-linux-gtk.tar.gz)
   - [Linux 64 bit](http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/1/eclipse-cpp-neon-1-linux-gtk.tar.gz)
-- [GNU Tools for ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) (Suggested version: 5.4 2016q3, which is not the newest)
+- [GNU Tools for ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) (Suggested version: 4.8 2014q3, which is not the newest)
 
-  direct download links:
-  - [Windows](https://developer.arm.com/-/media/Files/downloads/gnu-rm/5_4-2016q2/gcc-arm-none-eabi-5_4-2016q2-20160622-win32.exe?revision=8d5550ff-4ad0-4c6d-9a01-d6447d22784d?product=GNU%20Arm%20Embedded%20Toolchain)
-  - [Linux](https://developer.arm.com/-/media/Files/downloads/gnu-rm/5_4-2016q2/gccarmnoneeabi542016q220160622linuxtar.bz2?revision=8f445a99-c1ae-4ed8-9eb8-f41929a671c4?product=GNU%20Arm%20Embedded%20Toolchain)
-  - [MacOS](https://developer.arm.com/-/media/Files/downloads/gnu-rm/5_4-2016q2/gccarmnoneeabi542016q220160622mactar.bz2?revision=03ae9f41-1f43-40ed-9db8-a4b6342378ac?product=GNU%20Arm%20Embedded%20Toolchain,64-bit,,Mac%20OS%20X,5-2016-q2-update)
+  [direct download links](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update):
+  - [Windows](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-win32.exe)
+  - [Linux](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-linux.tar.bz2)
+  - [MacOS](https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-mac.tar.bz2)
 - [Segger J-Link software pack](https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack) (Suggested version V614b, which is not the newest also)
 
   direct download links:
