@@ -135,17 +135,17 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
 10. After compete adding all the components, you may found that all the components are in form of 'C?, R?, SW*?'. So we need to annotate the schematic the assign all the components with correct name.
 
-    Click annotate schematic
+   Click annotate schematic
 
-    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/annotation.PNG)
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/annotation.PNG)
 
-    A window will pop up, you need to first click 'Reset All', then 'Update Changes List', at last 'Accept Changes'
+   A window will pop up, you need to first click 'Reset All', then 'Update Changes List', at last 'Accept Changes'
 
-    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/annotation_complete.PNG)
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/annotation_complete.PNG)
 
-    After clicking 'Accept Changes', a window will pop up, click 'Validate Changes' first, then 'Execute Changes', after that you should see all green ticks next to every component.
+   After clicking 'Accept Changes', a window will pop up, click 'Validate Changes' first, then 'Execute Changes', after that you should see all green ticks next to every component.
 
-    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/accept_changes.PNG)
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/accept_changes.PNG)
 
 11. Next we need to create a pcb file to store our creation of the board.
 
