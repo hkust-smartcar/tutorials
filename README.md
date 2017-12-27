@@ -30,7 +30,7 @@ Author: Leslie Lee ([LeeChunHei](http://www.github.com/LeeChunHei))
 * Basic component recognition
 * Soldering
 * Basic circuit knowledge
-* Board design (soon be completed)
+* Board design
 * MCU hardware introduction (soon be completed)
 
 ### Mechanics Tutorials (`/mechanics`)
