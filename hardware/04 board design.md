@@ -197,7 +197,23 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
     You can place the polygon in the following way.
 
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_pour.PNG)
+
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_pour_setting.PNG)
+
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_pouring.PNG)
+
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_pour_result.PNG)
+
+17. At last you may add some polygon cutout to delete some sharp polygon, as those polygon  will create noise at the sharping point.
+
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_cutout.PNG)
+
     ​
+
+    Don't forget to place as much via as you can to connect the top layer polygon and bottom layer polygon.
+
+
 
 
 
