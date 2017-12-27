@@ -53,6 +53,6 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
 ## Start A New Project
 
-
+![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/open_library_1.PNG)
 
 
