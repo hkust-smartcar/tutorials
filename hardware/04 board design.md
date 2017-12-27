@@ -53,9 +53,13 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
 ## Start A New Project
 
-1. ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/new_project.PNG)
+1. First new a project
 
-2. ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/new_project_2.PNG)
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/new_project.PNG)
+
+2. Choosing the default setting and name your project. 
+
+   ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/new_project_2.PNG)
 
 3. Now you will have a completely new project in your computer, but it is still empty.
 
@@ -209,33 +213,18 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
     ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_cutout.PNG)
 
-    ​
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/polygon_cutouting.PNG)
 
-    Don't forget to place as much via as you can to connect the top layer polygon and bottom layer polygon.
+    You need to repour the polygon to see the changes.
 
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/repour_all.PNG)
 
+    ![](https://github.com/hkust-smartcar/tutorials/raw/master/hardware/img/cutout_result.PNG)
 
+    Also, don't forget to place as much via as you can to connect the top layer polygon and bottom layer polygon. And you shall put adding these via after finalize you polygon design, some bad things will happened if you reverse these two steps.
 
+##Assignment
 
+Everyone needs to complete a motor driver design with two motor output. You are required to use the DRV8432 motor controller IC to build the circuit. You can find the DRV8432 library by added the following library into your Altium Designer.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://github.com/hkust-smartcar/tutorials/raw/master/hardware/libraries.zip
