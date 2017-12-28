@@ -227,4 +227,6 @@ In SmartCar team we will use this software to draw the schematics and route the 
 
 Everyone needs to complete a motor driver design with two motor output. You are required to use the DRV8432 motor controller IC to build the circuit. You can find the DRV8432 library by added the following library into your Altium Designer.
 
-https://github.com/hkust-smartcar/tutorials/raw/master/hardware/libraries.zip
+https://github.com/hkust-smartcar/tutorials/raw/master/hardware/DRV8432.rar
+
+Deadline: 2/1/2018
