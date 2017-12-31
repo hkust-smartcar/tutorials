@@ -4,7 +4,7 @@ This repository contains materials of tutorials in Smart Car.
 
 ### Schedule for SmartCar 2018
 
-![img](https://i.imgur.com/b9Li5IA.png)
+![img](https://i.imgur.com/Ezhaeri.png)
 
 ### Internal Group Allocation
 
