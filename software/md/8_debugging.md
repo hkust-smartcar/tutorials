@@ -305,3 +305,80 @@ And expectedly, by clicking 'step over' once more, the program crashes.
 ### Logical Errors
 
 Logical errors are the hardest to detect since the problem lies within your algorithm. You might want to use the debugging tools mentioned above and see if the algorithm runs like what you expected. We could not tell you much because the algorithms are written by you!
+
+### Wrap-up Exercise
+
+Consider the following algorithm of `Quick Select`.
+
+```pascal
+ function partition(list, left, right, pivotIndex)
+     pivotValue := list[pivotIndex]
+     swap list[pivotIndex] and list[right]  // Move pivot to end
+     storeIndex := left
+     for i from left to right-1
+         if list[i] < pivotValue
+             swap list[storeIndex] and list[i]
+             increment storeIndex
+     swap list[right] and list[storeIndex]  // Move pivot to its final place
+     return storeIndex
+     
+ // Returns the k-th smallest element of list within left..right inclusive
+ // (i.e. left <= k <= right).
+ // The search space within the array is changing for each round - but the list
+ // is still the same size. Thus, k does not need to be updated with each round.
+ function select(list, left, right, k)
+	 pivotIndex  := ...     // select a pivotIndex between left and right
+     if left = right        // If the list contains only one element,
+         return list[left]  // return that element
+     pivotIndex  := partition(list, left, right, pivotIndex)
+     // The pivot is in its final sorted position
+     if k = pivotIndex
+         return list[k]
+     else if k < pivotIndex
+         return select(list, left, pivotIndex - 1, k)
+     else
+         return select(list, pivotIndex + 1, right, k)
+```
+
+The following is an implementation of `Quick Select` in C++.
+
+```C++
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+template <class T>
+void swap(T a, T b) {
+  T temp = a;
+  a = b;
+  b = temp;
+}
+
+int select(int list, int left, int right, int k) {
+  int pivotIndex = left + rand() % (right - left);
+  pivotIndex  = partition(list, left, right, pivotIndex);
+  if (left == right) return list[left];
+  else if (k == pivotIndex) return list[k];
+  else if (k < pivotIndex) return select(list, left, pivotIndex-1, k);
+  else return select(list, pivotIndex+1, right, k);
+}
+
+int partition(int list, int left, int right, int pivotIndex) {
+  int pivotValue = list[pivotIndex];
+  swap(list[pivotIndex], list[right]);
+  int storeIndex = left;
+  for (int i = left; i < right-1; i++)
+    if (list[i] < pivotValue) swap(list[storeIndex++], list[i]);
+  swap(list[right], list[storeIndex]);
+  return storeIndex;
+}
+
+int main() {
+  int a[] = {1, 5, 3, 2, 4, 10, 3, 2};
+  //Expected output: 1, 2, 2, 3, 3, 4, 5, 10
+  for (int i = 0; i < 8; i++) std::cout << select(a, 0, 7, i) << " ";
+}
+
+```
+
+The function `select(a, 0, 7, i)` is supposed to get the `i`-th sorted element in the array `a`. However, in this code there are several bugs. Try to debug it with the skills you learned above, with the psuedocode as reference to the algorithm design. One of the bugs is more difficult and the hint for that specific bug is to consider the use of the library of `<ctime>`. There is also one optimization you can make that is **not** reflected on both psuedocode and C++ code. If all the bugs are fixed, running the code should give you the expected output as stated above.
